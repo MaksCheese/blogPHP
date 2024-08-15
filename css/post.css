@@ -1,0 +1,54 @@
+.btnComments {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 30px;
+
+    align-items: center;
+    justify-content: end;
+}
+
+.comments {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.comment {
+    width: 700px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    margin-left: 150px;
+    margin-top: 40px;
+    border: 1px solid #4649a8;
+    box-shadow: 10px 10px 5px #576b9f;
+}
+
+.loginComm {
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    align-items: start;
+    font-size: 20px;
+}
+
+.textCom {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.dateCom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: end;
+    justify-content: end;
+}
